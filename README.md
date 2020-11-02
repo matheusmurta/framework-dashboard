@@ -10,6 +10,8 @@ Nota 1: resolvi criar uma fake server com os mesmos dados do jsonplaceholder.typ
 
 Nota 2: Alguns recursos nunca faria em uma aplicação real da forma que fiz aqui, mas como perdi um tempo consideravel na aprendizagem do angular material foi necessario ex: instalação do tailwind css,icones e fontes. 
 
+Nota: 3 Achei estranho vocês nao terem enviado um template com resultado esperado resolvi criar esse design mais genérico mesmo. 
+
 instruções 
 
 `npm install` instalar dependências  
