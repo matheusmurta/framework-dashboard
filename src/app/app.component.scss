@@ -1,0 +1,30 @@
+
+
+* { 
+    font-family: 'Roboto', sans-serif;
+}
+
+.module-selected{
+    background-color: #4b00e20d;
+    border-left: 6px solid #a689ff;
+    border-radius: 5px;
+}
+
+
+.svg-icon {
+    width: 2em;
+    height: 2em;
+  
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #a0a0a0;
+  }
+  
+  .svg-icon circle {
+    stroke: #a0a0a0;
+    stroke-width: 1;
+  }
+

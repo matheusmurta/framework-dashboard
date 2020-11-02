@@ -1,0 +1,15 @@
+
+<app-framework-table 
+[tabledata]="posts" 
+[tablecolumns]="myColumns"
+(sendNewData)="reciverAdd($event)"
+(sendUpdatedData)="reciverUpdate($event)"
+(sendRemovedData)="reciverDelete($event)"
+[formFields]="myFormFields" 
+[tableTitle]="'Posts'"
+></app-framework-table>
+
+
+  
+
+  

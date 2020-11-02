@@ -1,0 +1,6 @@
+<div class="container">
+  <h3 mat-dialog-title>Editar</h3>
+  <form class="mat-dialog-content">
+    <dynamic-form-builder [fields]="getFields()" (onSubmit)="reciverSubmit($event)" [formdata]="currentData" (onCancel)="reciverCancel($event)"></dynamic-form-builder>
+  </form>
+</div>

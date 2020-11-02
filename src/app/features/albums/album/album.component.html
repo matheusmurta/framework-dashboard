@@ -1,0 +1,10 @@
+<app-framework-table 
+[tabledata]="albumsList" 
+[tablecolumns]="myColumns"
+(sendNewData)="reciverAdd($event)"
+(sendUpdatedData)="reciverUpdate($event)"
+(sendRemovedData)="reciverDelete($event)"
+[formFields]="myFormFields" 
+[tableTitle]="'Albums'"
+></app-framework-table>
+

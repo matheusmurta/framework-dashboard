@@ -1,0 +1,17 @@
+<div class="">
+  <div class="px-6 py-4">
+    <div class="font-bold text-xl mb-6">Tem certeza que deseja remover este item?</div>
+    <div *ngFor="let item of data.element | keyvalue">
+        <p class="text-gray-700 text-base"><strong class="mx-2">{{item.key}} :</strong>{{item.value}}</p>
+   </div>
+  
+  </div>
+  <div class="px-6 pt-4 pb-2">
+    <div mat-dialog-actions align="end">
+      <button mat-button color="accent" (click)="reciverCancel(true)" tabindex="-1">Cancelar</button>
+      <button mat-button color="primary" [mat-dialog-close]="1" (click)="confirmDelete()">Remover</button>
+    </div>
+  </div>
+</div>
+
+
