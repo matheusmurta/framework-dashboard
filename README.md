@@ -1,5 +1,5 @@
 # FrameworkDashboard
-Angular Material Playground 
+Angular 8 Material Playground 
 
 -Angular 8
 -Node.js e npm 
