@@ -1,16 +1,8 @@
 # FrameworkDashboard
-
-Requisitos  
+Angular Material Playground 
 
 -Angular 8
 -Node.js e npm 
-
-
-Nota 1: resolvi criar uma fake server com os mesmos dados do jsonplaceholder.typicode.com/ solicitados porém mockados, achei ele meio sem graça não dava para emular realmente as ações de crud então criei esse fake server.
-
-Nota 2: Alguns recursos nunca faria em uma aplicação real da forma que fiz aqui, mas como perdi um tempo consideravel na aprendizagem do angular material foi necessario ex: instalação do tailwind css,icones e fontes. 
-
-Nota: 3 Achei estranho vocês nao terem enviado um template com resultado esperado resolvi criar esse design mais genérico mesmo. 
 
 instruções 
 
